@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Shared/">
+    <Project Path="TravelManagement.Shared.Abstraction/TravelManagement.Shared.Abstraction.csproj" Id="028bb4a2-43d0-4c36-a2bb-0117e1395a7e" />
+  </Folder>
+  <Project Path="TravelManagement.Domain/TravelManagement.Domain.csproj" />
+  <Project Path="TravelMangement.Application/TravelManagement.Application.csproj" Id="62204b51-4b5b-4ce7-a321-9c8d8cd34fef" />
+</Solution>
