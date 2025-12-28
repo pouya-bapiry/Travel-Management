@@ -1,8 +1,10 @@
 <Solution>
   <Folder Name="/Shared/">
     <Project Path="TravelManagement.Shared.Abstraction/TravelManagement.Shared.Abstraction.csproj" Id="028bb4a2-43d0-4c36-a2bb-0117e1395a7e" />
+    <Project Path="TravelManagement.Shared/TravelManagement.Shared.csproj" Id="cd834cd0-d711-41b7-bd61-3fcbc391afc7" />
   </Folder>
   <Project Path="TravelManagament.API/TravelManagament.API.csproj" Id="cf1f17dd-04c9-43f1-ae9a-0dfcefe35ecc" />
   <Project Path="TravelManagement.Domain/TravelManagement.Domain.csproj" />
+  <Project Path="TravelManagement.Infrastructure/TravelManagement.Infrastructure.csproj" Id="73db0c67-6ef2-4364-9dfc-3dc2c10f9e56" />
   <Project Path="TravelMangement.Application/TravelManagement.Application.csproj" Id="62204b51-4b5b-4ce7-a321-9c8d8cd34fef" />
 </Solution>
