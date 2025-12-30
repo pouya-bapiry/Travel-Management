@@ -1,4 +1,4 @@
-namespace TravelManagament.API
+namespace TravelManagement.API
 {
     public class WeatherForecast
     {

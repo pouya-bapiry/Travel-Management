@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TravelManagement.Domain\TravelManagement.Domain.csproj" />
+    <ProjectReference Include="..\TravelManagement.Shared\TravelManagement.Shared.csproj" />
+	
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,14 @@
+using TravelManagement.Application;
+using TravelManagement.Infrastructure;
+using TravelManagement.Shared;
+
 var builder = WebApplication.CreateBuilder(args);
 
+ConfigurationManager configuration = builder.Configuration;
+
+builder.Services.AddShared();
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(configuration);
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -17,6 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseShared();
 
 app.UseAuthorization();
 
